@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
+:root {
+    --primary: #1a161f;
+    --secondary: #474255;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: var(--primary);
+    color: white;
+}
+
+.wrap{
+    max-width: 990px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.row{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.side-content{
+    flex-grow: 1;
+}
