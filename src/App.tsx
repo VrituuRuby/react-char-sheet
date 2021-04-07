@@ -1,4 +1,5 @@
 import React from 'react';
+import DamageTable from './components/DamageTable';
 import Habilities from './components/Habilities';
 import MainData from './components/MainData';
 import ProefList from './components/ProefList';
@@ -15,6 +16,7 @@ export default function App() {
         <ProefList/>
         <div className='side-content'>
           <Status/>
+          <DamageTable/>
         </div>
 
        </div>

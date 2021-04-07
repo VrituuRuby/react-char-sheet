@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     border: 2px solid var(--secondary);
+    width: 100%;
     border-radius: 10px;
     padding: 0.75rem;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
